@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جدول مدموج</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>جدول مدموج</h1>
+    <table>
+        <!-- الصف الأول مدموج بالكامل -->
+        <tr>
+            <th colspan="6">الصف الأول (مدموج بالكامل)</th>
+        </tr>
+        <!-- الصف الثاني -->
+        <tr>
+            <td>صف 2 - عمود 1</td>
+            <td>صف 2 - عمود 2</td>
+            <td>دمج الأعمدة 3 و4 و5 مع صفين</td>
+            <td rowspan="4">دمج العمود الأخير مع الصفوف من 2 إلى 5</td>
+        </tr>
+        <!-- الصف الثالث -->
+        <tr>
+            <td>صف 3 - عمود 1</td>
+            <td>صف 3 - عمود 2</td>
+        </tr>
+        <!-- الصف الرابع -->
+        <tr>
+            <td>صف 4 - عمود 1</td>
+            <td>صف 4 - عمود 2</td>
+            <td colspan="3">دمج الأعمدة 3 و4 و5</td>
+        </tr>
+        <!-- الصف الخامس -->
+        <tr>
+            <td>صف 5 - عمود 1</td>
+            <td>صف 5 - عمود 2</td>
+            <td colspan="3">دمج الأعمدة 3 و4 و5</td>
+        </tr>
+        <!-- الصف السادس -->
+        <tr>
+            <th colspan="6">الصف الأول (مدموج بالكامل)</th>
+        </tr>
+    </table>
+</body>
+</html>
